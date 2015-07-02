@@ -1,0 +1,29 @@
+/* ----------------------------------- */
+/* right sidebar (Rick's Corner, etc)  */
+/* ----------------------------------- */
+
+.rightside {
+	margin: 0;
+	float: right;
+	width: 240px;	
+	border: 1px solid #808080;
+	font-size: 1.0em;
+    border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; 
+    box-shadow: 2px 1px 3px #CCCCCC; -moz-box-shadow: 2px 1px 3px #CCCCCC; -webkit-box-shadow: 2px 1px 3px #CCCCCC;
+    background-color: #eeeeee;
+}
+
+.rightside h1 {
+	margin: 0;
+	padding: 0.2em 10px;
+	border: none;
+	font-size: 1.0em;
+    color: white;
+    background-color: #4A6AB0;
+    text-shadow: none;
+    -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft:  3px; -webkit-border-top-left-radius:  3px;
+}
+
+.rightside table { border: 1px solid #CCCCCC; }
+.rightside td { border: 1px solid #CCCCCC; vertical-align: middle; }

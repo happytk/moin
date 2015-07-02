@@ -1,0 +1,11 @@
+syntax: glob
+
+*.pyc
+*_local.py
+nohup.out
+Python27/*
+*.dll
+*.pid
+celerybeat-schedule
+*.log
+@eaDir

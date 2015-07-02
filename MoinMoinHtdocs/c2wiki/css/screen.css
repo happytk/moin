@@ -1,0 +1,137 @@
+/*  screen.css - MoinMoin Default Styles
+
+Copyright (c) 2001, 2002, 2003 by Juergen Hermann
+*/
+
+#logo {
+    font-weight: bold;
+    font-family: Tahoma !important;
+    font-size: 21px;
+    margin-right: 7px;
+}
+#logo a { background-color: #ffffcc; font-size:13px; }
+
+#navibar {
+    /*border: 1px dashed black; */
+    background-color:#ffffcc;
+    /*margin-bottom: 15px;*/
+    /*padding: 8px;*/
+}
+
+a.nonexistent:link { color: #666 }
+a.nonexistent:hover { color: black; text-decoration: underline }
+
+a.download {
+    font-size: 120%; 
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    background: #E7E7E7;
+    border: 1px solid #9C9C9C;
+    padding: 0.5em;
+    text-align: center;
+}
+
+/* We use here dumb css1 ids because of IE suckiness */
+#editor-textarea, #editor-help {
+    width: 100%;
+    font-size: 106%;
+}
+
+#editor-help {
+    display:none;
+    background-color: #EEEEFF;
+}
+
+#editor-comment {
+    border: 1px solid #8cacbb;
+    color: black;
+    background-color: white;
+    vertical-align: middle;
+    padding: 1px;
+    display: inline;
+    width: 70%;
+}
+
+#preview, #previewbelow {
+    border: 1px solid #6C7680;
+    padding: 10px 30px 20px 30px;
+    background: url(../img/draft.png);
+    margin-top: 0.5em;
+}
+
+
+.diff {
+    width:99%;
+    table-layout: fixed;
+}
+
+.diff-header {
+    font-weight: bold;
+}
+
+.diff-title {
+    background-color: #C0C0C0;
+}
+
+.diff-added {
+    background-color: #E0FFE0;
+    vertical-align: top;
+    width: 50%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: courier, monospace;
+}
+
+.diff-removed {
+    background-color: #FFFFE0;
+    vertical-align: top;
+    width: 50%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: courier, monospace;
+}
+
+.diff-added span {
+    background-color: #80FF80;
+}
+
+.diff-removed span {
+    background-color: #FFFF80;
+}
+
+td.diff-info {
+    vertical-align: top;
+}
+
+div.diff-info {
+    white-space: nowrap;
+}
+
+div.diff-info-rev-comment span.diff-info-value {
+    white-space: normal;
+}
+
+div.diff-info-header {
+    background-color: #E8E8E8;
+    width: 100%;
+    padding: 0.25em 0.5em;
+    margin: -0.25em -0.5em;
+    margin-bottom: 0.25em;
+    text-align: center;
+}
+
+td.diff-same {
+    text-align: center;
+    border: 0;
+}
+
+table.navigation {
+    float: right;
+    margin: 2px;
+}
+
+#openididentifier {
+    background: url(../../common/openid.png) no-repeat;
+    background-position: 0 50%;
+    padding-left: 18px;
+}

@@ -1,0 +1,58 @@
+@charset 'UTF-8';
+body { margin: 0 0 0 0; font-family: verdana !important; font-size: 9px;}
+#chart { float:left; margin: 0 0 0 0; }
+
+.x.axis line {
+  shape-rendering: auto;
+}
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.2px;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #bbb;
+  shape-rendering: crispEdges;
+}
+
+/*.area {
+  fill: steelblue;
+}*/
+
+.area.above {
+  fill: rgb(252,141,89);
+}
+
+.area.below {
+  fill: rgb(145,207,96);
+}
+
+.header {
+    clear:both;
+    font-size: 20px;
+    padding: 1px;
+    margin-bottom: 0px;
+    background-color: #efefef;
+}
+
+h4 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+
+.rect {
+  fill: steelblue;
+  /*stroke: white;*/
+}
+
+#chart-title {
+  font-weight: bold;
+  font-size: 28px;
+  opacity: 0.1;
+}
